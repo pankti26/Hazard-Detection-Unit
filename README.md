@@ -5,22 +5,22 @@ A data hazard occurs in a pipeline when an instruction requires data to be read 
 
 The Hazard Detection Unit Module:
 
-![HDU](https://github.com/pankti26/Hazard-Detection-Unit/raw/Images/HDU_module.jpg)
+![HDU](/Images/HDU_module.jpg)
 
 The hazard detection unit receives input from the ID/EX stage. It uses ID/EX.MemRead to determine if the previous instruction was a load instruction and obtains the address of Rd from ID/EX.RegisterRd signal. It compares this Rd to the addresses of Rs1 and Rs2 obtained from the present instruction. According to the output of the above, the necessary output lines are asserted.
 
 Opcodes for RISC-V Base Integer ISA:
 
-![Opcodes](https://github.com/pankti26/Hazard-Detection-Unit/tree/master/Images/Opcodes.jpg)
+![Opcodes](/Images/Opcodes.jpg)
 
 Schematic of the implemented circuit:
 
-![Schematic](https://github.com/pankti26/Hazard-Detection-Unit/tree/master/Images/Schematic.jpg)
+![Schematic](/Images/Schematic.jpg)
 
 Combination of Instructions Possible in RISC-V:
 
-![Combination of Instructions](https://github.com/pankti26/Hazard-Detection-Unit/tree/master/Images/Combination_of_Instructions.jpg)
+![Combination of Instructions](/Images/Combination_of_Instructions.jpg)
 
 Simulation Results of the implemented circuit:
 
-![Simulation](https://github.com/pankti26/Hazard-Detection-Unit/tree/master/Images/Simulation.jpg)
+![Simulation](/Images/Simulation.jpg)
