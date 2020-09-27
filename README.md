@@ -11,16 +11,16 @@ The hazard detection unit receives input from the ID/EX stage. It uses ID/EX.Mem
 
 Opcodes for RISC-V Base Integer ISA:
 
-![Opcodes](/Images/Opcodes.jpg)
+![Opcodes](/Images/Opcodes.png)
 
 Schematic of the implemented circuit:
 
-![Schematic](/Images/Schematic.jpg)
+![Schematic](/Images/Schematic.png)
 
 Combination of Instructions Possible in RISC-V:
 
-![Combination of Instructions](/Images/Combination_of_Instructions.jpg)
+![Combination of Instructions](/Images/Combination_of_Instructions.png)
 
 Simulation Results of the implemented circuit:
 
-![Simulation](/Images/Simulation.jpg)
+![Simulation](/Images/Simulation.png)
