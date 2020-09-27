@@ -5,7 +5,7 @@ A data hazard occurs in a pipeline when an instruction requires data to be read 
 
 The Hazard Detection Unit Module:
 
-![HDU](https://github.com/pankti26/Hazard-Detection-Unit/tree/master/Images/HDU_module.jpg)
+![HDU](https://github.com/pankti26/Hazard-Detection-Unit/raw/Images/HDU_module.jpg)
 
 The hazard detection unit receives input from the ID/EX stage. It uses ID/EX.MemRead to determine if the previous instruction was a load instruction and obtains the address of Rd from ID/EX.RegisterRd signal. It compares this Rd to the addresses of Rs1 and Rs2 obtained from the present instruction. According to the output of the above, the necessary output lines are asserted.
 
